@@ -1,0 +1,766 @@
+--- Checking NaN ---
+✅ 'df_model' has no NaN
+
+--- Checking ±Inf ---
+✅ 'df_model' has no Inf
+
+--- Check for extreme values ---
+                                     count            mean             std  \
+dow_0                          323190.0000          0.1901          0.3923   
+dow_1                          323190.0000          0.2105          0.4077   
+dow_2                          323190.0000          0.1988          0.3991   
+dow_3                          323190.0000          0.1988          0.3991   
+dow_4                          323190.0000          0.2018          0.4013   
+dow_5                          323190.0000          0.0000          0.0000   
+f_minsin                       323190.0000         -0.5751          0.1901   
+f_mincos                       323190.0000         -0.7794          0.1602   
+close                          323190.0000        158.6059         53.0292   
+f_volu_z_15_clipped            323190.0000          0.1450          1.0751   
+f_volu_z_30_clipped            323190.0000          0.2133          1.1742   
+f_volu_z_5_clipped             323190.0000          0.0543          0.9236   
+f_volu_z_60_clipped            323190.0000          0.2553          1.2225   
+f_volume_norm                  323190.0000          0.0522          1.1984   
+fz_bb_pos                      323190.0000         -0.0071          1.0460   
+fz_dev_close_ema20             323190.0000         -0.0195          1.1588   
+fz_dev_close_ema200            323190.0000         -0.0500          1.2222   
+fz_dev_close_vwap_15           323190.0000         -0.0115          1.1183   
+fz_dev_close_vwap_60           323190.0000         -0.0281          1.1199   
+fz_dev_tp_ema20                323190.0000         -0.0213          1.1691   
+fz_hl_over_atr20               323190.0000          0.2687          1.2647   
+fz_hl_range_pct                323190.0000          0.2738          1.3223   
+fz_lret_15_rolling             323190.0000         -0.0134          1.1501   
+fz_lret_1_rolling              323190.0000         -0.0081          1.1582   
+fz_lret_30_rolling             323190.0000         -0.0227          1.1286   
+fz_lret_5_rolling              323190.0000         -0.0024          1.1437   
+fz_lret_60_rolling             323190.0000         -0.0250          1.0951   
+fz_macd_hist                   323190.0000          0.0164          1.1750   
+fz_oc_change_pct               323190.0000         -0.0057          1.1873   
+fz_rsi_pos                     323190.0000         -0.0037          1.0745   
+fz_spill_AMAT_lret_lag1        323190.0000          0.0030          1.0677   
+fz_spill_AMAT_lret_lag2        323190.0000         -0.0008          1.0569   
+fz_spill_AMAT_lret_lag3        323190.0000         -0.0055          1.0522   
+fz_spill_AMAT_lret_lag4        323190.0000         -0.0034          1.0452   
+fz_spill_AMAT_lret_lag5        323190.0000         -0.0006          1.0378   
+fz_spill_AMD_lret_lag1         323190.0000         -0.0049          1.0213   
+fz_spill_AMD_lret_lag2         323190.0000         -0.0062          1.0199   
+fz_spill_AMD_lret_lag3         323190.0000         -0.0056          1.0164   
+fz_spill_AMD_lret_lag4         323190.0000         -0.0099          1.0087   
+fz_spill_AMD_lret_lag5         323190.0000         -0.0105          1.0057   
+fz_spill_AVGO_lret_lag1        323190.0000         -0.0014          1.0532   
+fz_spill_AVGO_lret_lag2        323190.0000         -0.0002          1.0514   
+fz_spill_AVGO_lret_lag3        323190.0000         -0.0002          1.0507   
+fz_spill_AVGO_lret_lag4        323190.0000         -0.0030          1.0412   
+fz_spill_AVGO_lret_lag5        323190.0000          0.0003          1.0275   
+fz_spill_MU_lret_lag1          323190.0000          0.0010          1.0437   
+fz_spill_MU_lret_lag2          323190.0000         -0.0095          1.0372   
+fz_spill_MU_lret_lag3          323190.0000         -0.0066          1.0293   
+fz_spill_MU_lret_lag4          323190.0000         -0.0105          1.0233   
+fz_spill_MU_lret_lag5          323190.0000         -0.0067          1.0179   
+fz_spill_NVDA_lret_lag1        323190.0000         -0.0065          1.0228   
+fz_spill_NVDA_lret_lag2        323190.0000         -0.0102          1.0197   
+fz_spill_NVDA_lret_lag3        323190.0000         -0.0104          1.0176   
+fz_spill_NVDA_lret_lag4        323190.0000         -0.0112          1.0100   
+fz_spill_NVDA_lret_lag5        323190.0000         -0.0131          1.0045   
+fz_vol_15                      323190.0000          0.6467          1.8439   
+fz_vol_30                      323190.0000          0.5051          1.7913   
+fz_vol_5                       323190.0000          0.7670          1.9130   
+fz_vol_60                      323190.0000          0.2705          1.7337   
+fz_vol_ratio_15                323190.0000          0.5551          1.4871   
+fz_vol_ratio_30                323190.0000          0.3475          1.2569   
+fz_vol_ratio_5                 323190.0000          0.7114          1.6952   
+fz_vol_ratio_60                323190.0000          0.0000          0.0000   
+high                           323190.0000        158.6884         53.0476   
+hl_range                       323190.0000          0.1674          0.1374   
+low                            323190.0000        158.5210         53.0115   
+oc_change                      323190.0000          0.0005          0.1370   
+open                           323190.0000        158.6053         53.0295   
+rsi_14_clip                    323190.0000         50.3046         11.5796   
+vol_15                         323190.0000          0.0612          0.0394   
+vol_30                         323190.0000          0.0436          0.0265   
+vol_5                          323190.0000          0.1018          0.0778   
+vol_60                         323190.0000          0.0312          0.0180   
+volu_z_15                      323190.0000          0.1450          1.0751   
+volu_z_30                      323190.0000          0.2145          1.1783   
+volu_z_5                       323190.0000          0.0543          0.9236   
+volu_z_60                      323190.0000          0.2775          1.3136   
+volume                         323190.0000     149179.4018     657263.5955   
+year                           323190.0000       2024.5468          0.4978   
+month                          323190.0000          6.8684          2.9986   
+day                            323190.0000         15.7895          8.6891   
+overnight_n_rs                 323190.0000          0.0000          0.0000   
+cnt_15m_rs                     323190.0000      42482.3485     193026.3425   
+tone_mean_ewm_hl15             323190.0000          0.0060          0.0252   
+overnight_tone_sum_rs          323190.0000          0.0000          0.0000   
+morning_source_div_is_zero     323190.0000          0.6292          0.4830   
+minute_cos                     323190.0000         -0.7863          0.1390   
+n_news_ewm_hl15_rs             323190.0000        429.1632       3401.4619   
+overnight_source_div_is_zero   323190.0000          0.2579          0.4375   
+cnt_15m                        323190.0000          0.2472          0.8079   
+tone_ewm15                     323190.0000          0.0060          0.0252   
+cnt_30m_is_zero                323190.0000          0.7723          0.4193   
+morning_n                      323190.0000          1.5140          3.1550   
+minute_sin                     323190.0000         -0.5713          0.1899   
+dow_6                          323190.0000          0.0000          0.0000   
+n_news_ewm_hl5_rs              323190.0000       1174.3563       8436.6123   
+overnight_tone_sum             323190.0000         10.1564         19.5333   
+morning_tone_sum               323190.0000          1.3753          3.5903   
+cnt_30m                        323190.0000          0.4989          1.2801   
+n_news_ewm_hl15                323190.0000          0.0167          0.0389   
+tone_mean_delta_rs             323190.0000       -311.1481       4231.3156   
+n_news_ewm_hl15_is_zero        323190.0000          0.0000          0.0000   
+cnt_60m_rs                     323190.0000      22753.9268     168560.0458   
+morning_tone_mean              323190.0000          0.3457          0.8913   
+morning_source_div_rs          323190.0000          0.0000          0.0000   
+cnt_5m_rs                      323190.0000      39954.0728     204044.1156   
+cnt_5m_is_zero                 323190.0000          0.9567          0.2036   
+tone_ewm30                     323190.0000          0.0063          0.0192   
+morning_tone_sum_rs            323190.0000          0.0000          0.0000   
+mins_since_last_news_is_zero   323190.0000          0.3809          0.4856   
+mins_since_last_news           323190.0000         51.4718         75.4856   
+tone_mean_ewm_hl15_rs          323190.0000        336.5905       4271.7841   
+overnight_n                    323190.0000         13.1702         23.2180   
+cnt_5m                         323190.0000          0.0777          0.4658   
+overnight_tone_mean_rs         323190.0000          0.0000          0.0000   
+cnt_15m_is_zero                323190.0000          0.8624          0.3445   
+n_news_ewm_hl5                 323190.0000          0.0162          0.0564   
+morning_source_div             323190.0000          0.4795          0.7078   
+tone_ewm30_rs                  323190.0000        112.4195       1629.9880   
+mins_since_bucket              323190.0000          1.7551          1.5489   
+overnight_source_div_rs        323190.0000          0.0000          0.0000   
+overnight_n_is_zero            323190.0000          0.2579          0.4375   
+cnt_60m                        323190.0000          1.0198          2.1777   
+n_news_ewm_hl5_is_zero         323190.0000          0.0000          0.0000   
+morning_n_rs                   323190.0000          0.0000          0.0000   
+overnight_tone_mean            323190.0000          0.6047          0.9487   
+cnt_30m_rs                     323190.0000      35986.7886     174813.6077   
+overnight_source_div           323190.0000          2.1485          1.9786   
+has_news                       323190.0000          0.0087          0.0927   
+cnt_60m_is_zero                323190.0000          0.6628          0.4728   
+morning_tone_mean_rs           323190.0000          0.0000          0.0000   
+morning_n_is_zero              323190.0000          0.6292          0.4830   
+minute_of_day_1based           323190.0000        865.0000         54.5589   
+tone_ewm15_rs                  323190.0000        336.5905       4271.7841   
+tone_mean_delta                323190.0000         -0.0003          0.1496   
+surprise_tone_mean             323190.0000         -0.0014          0.1550   
+surprise_tone_mean_rs          323190.0000       4348.7458      84824.4990   
+abs_tone_mean                  323190.0000          0.0113          0.1547   
+mins_since_last_news_rs        323190.0000      41777.1707     335480.9150   
+tone_mean_rs                   323190.0000       4611.9067      88762.5042   
+n_pos_raw                      323190.0000          0.0155          0.2106   
+tone_sum_rs                    323190.0000       8663.6206     172752.4417   
+n_news                         323190.0000          0.0155          0.2106   
+tone_sum                       323190.0000          0.0104          0.2733   
+n_news_rs                      323190.0000       7448.3966      87688.5566   
+tone_sum_slog                  323190.0000          0.0044          0.1037   
+n_pos_raw_rs                   323190.0000       7448.3966      87688.5566   
+n_pos_raw_is_zero              323190.0000          0.9913          0.0927   
+tone_mean                      323190.0000          0.0057          0.1550   
+n_news_is_zero                 323190.0000          0.9913          0.0927   
+eps_actual_iqr_outlier         323190.0000          0.0000          0.0000   
+shares_out_roll_mean_252       323190.0000         21.4444          1.0974   
+dividend                       323190.0000          0.0039          0.0423   
+eps_estimate_iqr_outlier       323190.0000          0.0000          0.0000   
+div_amount_rz_8                323190.0000          0.0004          0.0163   
+eps_actual_rz_8                323190.0000          0.0059          0.1153   
+eps_estimate                   323190.0000          0.0235          0.1951   
+5d_before_earnings_flag        323190.0000          0.2544          0.9317   
+shares_out_ffill               323190.0000 6144025019.0579 8941452172.6873   
+eps_surp_pct                   323190.0000          0.0874          0.8874   
+split_flag                     323190.0000          1.0000          0.0000   
+dividend_iqr_outlier           323190.0000          0.0129          0.1127   
+earnings_flag                  323190.0000          0.0175          0.1313   
+shares_out_iqr_outlier         323190.0000          0.0398          0.1954   
+split_mult_iqr_outlier         323190.0000          0.0012          0.0342   
+eps_surp_rz_8                  323190.0000          0.0001          0.2634   
+shares_out_roll_z_252          323190.0000          0.2422          1.4197   
+split_ratio_iqr_outlier        323190.0000          0.0012          0.0342   
+div_event_flag                 323190.0000          0.0140          0.1176   
+eps_surp_winsor_iqr_outlier    323190.0000          0.0006          0.0242   
+shares_out_roll_std_252        323190.0000          0.1776          0.3633   
+split_mult                     323190.0000          0.0117          0.3418   
+split_ratio                    323190.0000          0.0117          0.3418   
+eps_surp_pct_final_iqr_outlier 323190.0000          0.0006          0.0242   
+eps_surp_winsor                323190.0000          0.0874          0.8874   
+div_negative_flag              323190.0000          0.0000          0.0000   
+eps_surp_pct_calc              323190.0000          0.0870          0.8844   
+div_amount_iqr_outlier         323190.0000          0.0129          0.1127   
+shares_out_nonpos_flag         323190.0000          0.0000          0.0000   
+split_nonpos_flag              323190.0000          0.9988          0.0342   
+shares_out                     323190.0000 6144025019.0579 8941452172.6873   
+log_shares_out                 323190.0000         21.6568          1.2374   
+eps_surp_pct_final             323190.0000          0.0874          0.8874   
+div_amount                     323190.0000          0.0039          0.0423   
+log_shares_out_iqr_outlier     323190.0000          0.0392          0.1940   
+eps_estimate_rz_8              323190.0000          0.0054          0.1135   
+eps_actual                     323190.0000          0.0246          0.2048   
+y_target                       323190.0000         -0.0088          1.1616   
+
+                                          min             1%             25%  \
+dow_0                                  0.0000         0.0000          0.0000   
+dow_1                                  0.0000         0.0000          0.0000   
+dow_2                                  0.0000         0.0000          0.0000   
+dow_3                                  0.0000         0.0000          0.0000   
+dow_4                                  0.0000         0.0000          0.0000   
+dow_5                                  0.0000         0.0000          0.0000   
+f_minsin                              -0.9469        -0.8616         -0.7431   
+f_mincos                              -0.9753        -0.9744         -0.9100   
+close                                 63.5610        78.6200        119.2900   
+f_volu_z_15_clipped                   -3.0582        -1.5879         -0.6050   
+f_volu_z_30_clipped                   -3.1499        -1.4854         -0.5533   
+f_volu_z_5_clipped                    -1.7877        -1.5697         -0.6740   
+f_volu_z_60_clipped                   -3.0150        -1.3852         -0.5137   
+f_volume_norm                         -2.1154        -1.1162         -0.5822   
+fz_bb_pos                             -8.0000        -2.6488         -0.6736   
+fz_dev_close_ema20                    -8.0000        -3.1438         -0.6751   
+fz_dev_close_ema200                   -8.0000        -3.5374         -0.6750   
+fz_dev_close_vwap_15                  -8.0000        -2.9704         -0.6688   
+fz_dev_close_vwap_60                  -8.0000        -3.1294         -0.6600   
+fz_dev_tp_ema20                       -8.0000        -3.1866         -0.6755   
+fz_hl_over_atr20                      -4.1810        -1.8471         -0.5857   
+fz_hl_range_pct                       -4.0322        -1.7394         -0.5919   
+fz_lret_15_rolling                    -8.0000        -3.0849         -0.6716   
+fz_lret_1_rolling                     -8.0000        -3.0508         -0.6738   
+fz_lret_30_rolling                    -8.0000        -3.0978         -0.6634   
+fz_lret_5_rolling                     -8.0000        -2.9753         -0.6744   
+fz_lret_60_rolling                    -8.0000        -3.0088         -0.6566   
+fz_macd_hist                          -8.0000        -3.0516         -0.6596   
+fz_oc_change_pct                      -8.0000        -3.1368         -0.6737   
+fz_rsi_pos                            -8.0000        -2.7158         -0.6753   
+fz_spill_AMAT_lret_lag1               -8.0000        -2.9467         -0.4865   
+fz_spill_AMAT_lret_lag2               -8.0000        -2.9208         -0.4877   
+fz_spill_AMAT_lret_lag3               -8.0000        -2.9406         -0.4861   
+fz_spill_AMAT_lret_lag4               -8.0000        -2.8822         -0.4875   
+fz_spill_AMAT_lret_lag5               -8.0000        -2.8592         -0.4811   
+fz_spill_AMD_lret_lag1                -8.0000        -2.8158         -0.4794   
+fz_spill_AMD_lret_lag2                -8.0000        -2.8134         -0.4779   
+fz_spill_AMD_lret_lag3                -8.0000        -2.8114         -0.4745   
+fz_spill_AMD_lret_lag4                -8.0000        -2.7778         -0.4795   
+fz_spill_AMD_lret_lag5                -8.0000        -2.7713         -0.4823   
+fz_spill_AVGO_lret_lag1               -8.0000        -2.9025         -0.4814   
+fz_spill_AVGO_lret_lag2               -8.0000        -2.9025         -0.4823   
+fz_spill_AVGO_lret_lag3               -8.0000        -2.8882         -0.4806   
+fz_spill_AVGO_lret_lag4               -8.0000        -2.8502         -0.4840   
+fz_spill_AVGO_lret_lag5               -8.0000        -2.8285         -0.4758   
+fz_spill_MU_lret_lag1                 -8.0000        -2.8680         -0.4798   
+fz_spill_MU_lret_lag2                 -8.0000        -2.8666         -0.4876   
+fz_spill_MU_lret_lag3                 -8.0000        -2.8665         -0.4768   
+fz_spill_MU_lret_lag4                 -8.0000        -2.8215         -0.4896   
+fz_spill_MU_lret_lag5                 -8.0000        -2.8085         -0.4806   
+fz_spill_NVDA_lret_lag1               -8.0000        -2.8101         -0.4879   
+fz_spill_NVDA_lret_lag2               -8.0000        -2.8079         -0.4902   
+fz_spill_NVDA_lret_lag3               -8.0000        -2.8079         -0.4869   
+fz_spill_NVDA_lret_lag4               -8.0000        -2.7720         -0.4894   
+fz_spill_NVDA_lret_lag5               -8.0000        -2.7654         -0.4922   
+fz_vol_15                             -7.3136        -2.1450         -0.4451   
+fz_vol_30                             -8.0000        -2.6352         -0.5036   
+fz_vol_5                              -5.7361        -1.6244         -0.4178   
+fz_vol_60                             -8.0000        -3.9990         -0.5474   
+fz_vol_ratio_15                       -7.5716        -1.9134         -0.3640   
+fz_vol_ratio_30                       -8.0000        -2.4652         -0.4111   
+fz_vol_ratio_5                        -5.1457        -1.5797         -0.3638   
+fz_vol_ratio_60                        0.0000         0.0000          0.0000   
+high                                  63.7300        78.6789        119.3563   
+hl_range                               0.0000         0.0050          0.0899   
+low                                   63.5200        78.5700        119.2252   
+oc_change                             -4.0510        -0.3800         -0.0600   
+open                                  63.6000        78.6300        119.2900   
+rsi_14_clip                            8.6005        23.3267         42.4172   
+vol_15                                 0.0083         0.0203          0.0391   
+vol_30                                 0.0085         0.0164          0.0288   
+vol_5                                  0.0025         0.0194          0.0567   
+vol_60                                 0.0074         0.0126          0.0213   
+volu_z_15                             -3.0582        -1.5879         -0.6050   
+volu_z_30                             -3.1499        -1.4854         -0.5533   
+volu_z_5                              -1.7877        -1.5697         -0.6740   
+volu_z_60                             -3.0150        -1.3852         -0.5137   
+volume                                 0.0000      1463.0000      14790.0000   
+year                                2024.0000      2024.0000       2024.0000   
+month                                  1.0000         1.0000          5.0000   
+day                                    1.0000         1.0000          8.0000   
+overnight_n_rs                         0.0000         0.0000          0.0000   
+cnt_15m_rs                       -693147.1806        -1.4903          0.0000   
+tone_mean_ewm_hl15                    -0.4248        -0.0550         -0.0000   
+overnight_tone_sum_rs                  0.0000         0.0000          0.0000   
+morning_source_div_is_zero             0.0000         0.0000          0.0000   
+minute_cos                            -0.9763        -0.9753         -0.9118   
+n_news_ewm_hl15_rs                    -1.4707        -1.0277         -0.1763   
+overnight_source_div_is_zero           0.0000         0.0000          0.0000   
+cnt_15m                                0.0000         0.0000          0.0000   
+tone_ewm15                            -0.4248        -0.0550         -0.0000   
+cnt_30m_is_zero                        0.0000         0.0000          1.0000   
+morning_n                              0.0000         0.0000          0.0000   
+minute_sin                            -0.8616        -0.8594         -0.7402   
+dow_6                                  0.0000         0.0000          0.0000   
+n_news_ewm_hl5_rs                     -1.0387        -0.7939         -0.0152   
+overnight_tone_sum                   -68.8910        -5.5287          0.0000   
+morning_tone_sum                     -13.5867        -3.3026          0.0000   
+cnt_30m                                0.0000         0.0000          0.0000   
+n_news_ewm_hl15                        0.0000         0.0000          0.0000   
+tone_mean_delta_rs                -69947.9217    -10145.7242         -0.0000   
+n_news_ewm_hl15_is_zero                0.0000         0.0000          0.0000   
+cnt_60m_rs                       -693147.1806   -693147.1806          0.0000   
+morning_tone_mean                     -7.4074        -1.6471          0.0000   
+morning_source_div_rs                  0.0000         0.0000          0.0000   
+cnt_5m_rs                              0.0000         0.0000          0.0000   
+cnt_5m_is_zero                         0.0000         0.0000          1.0000   
+tone_ewm30                            -0.2041        -0.0386         -0.0000   
+morning_tone_sum_rs                    0.0000         0.0000          0.0000   
+mins_since_last_news_is_zero           0.0000         0.0000          0.0000   
+mins_since_last_news                   0.0000         0.0000          0.0000   
+tone_mean_ewm_hl15_rs             -23964.3575       -14.4524         -0.1725   
+overnight_n                            0.0000         0.0000          0.0000   
+cnt_5m                                 0.0000         0.0000          0.0000   
+overnight_tone_mean_rs                 0.0000         0.0000          0.0000   
+cnt_15m_is_zero                        0.0000         0.0000          1.0000   
+n_news_ewm_hl5                         0.0000         0.0000          0.0000   
+morning_source_div                     0.0000         0.0000          0.0000   
+tone_ewm30_rs                     -10441.2928        -7.7775         -0.3411   
+mins_since_bucket                      0.0000         0.0000          0.0000   
+overnight_source_div_rs                0.0000         0.0000          0.0000   
+overnight_n_is_zero                    0.0000         0.0000          0.0000   
+cnt_60m                                0.0000         0.0000          0.0000   
+n_news_ewm_hl5_is_zero                 0.0000         0.0000          0.0000   
+morning_n_rs                           0.0000         0.0000          0.0000   
+overnight_tone_mean                   -5.5718        -1.9324          0.0000   
+cnt_30m_rs                       -693147.1806        -2.6980          0.0000   
+overnight_source_div                   0.0000         0.0000          0.0000   
+has_news                               0.0000         0.0000          0.0000   
+cnt_60m_is_zero                        0.0000         0.0000          0.0000   
+morning_tone_mean_rs                   0.0000         0.0000          0.0000   
+morning_n_is_zero                      0.0000         0.0000          0.0000   
+minute_of_day_1based                 771.0000       772.0000        818.0000   
+tone_ewm15_rs                     -23964.3575       -14.4524         -0.1725   
+tone_mean_delta                       -9.1905        -0.1104         -0.0024   
+surprise_tone_mean                    -9.6714        -0.0526         -0.0115   
+surprise_tone_mean_rs            -419372.2056         0.0000          0.0000   
+abs_tone_mean                          0.0000         0.0000          0.0000   
+mins_since_last_news_rs              -32.7105        -8.0873          0.0000   
+tone_mean_rs                     -530238.3311         0.0000          0.0000   
+n_pos_raw                              0.0000         0.0000          0.0000   
+tone_sum_rs                      -815155.3271         0.0000          0.0000   
+n_news                                 0.0000         0.0000          0.0000   
+tone_sum                             -11.3496         0.0000          0.0000   
+n_news_rs                              0.0000         0.0000          0.0000   
+tone_sum_slog                         -2.5136         0.0000          0.0000   
+n_pos_raw_rs                           0.0000         0.0000          0.0000   
+n_pos_raw_is_zero                      0.0000         1.0000          1.0000   
+tone_mean                             -9.6154         0.0000          0.0000   
+n_news_is_zero                         0.0000         1.0000          1.0000   
+eps_actual_iqr_outlier                 0.0000         0.0000          0.0000   
+shares_out_roll_mean_252              19.9211        19.9321         20.5425   
+dividend                               0.0000         0.0000          0.0000   
+eps_estimate_iqr_outlier               0.0000         0.0000          0.0000   
+div_amount_rz_8                        0.0000         0.0000          0.0000   
+eps_actual_rz_8                       -1.7457         0.0000          0.0000   
+eps_estimate                           0.0000         0.0000          0.0000   
+5d_before_earnings_flag                0.0000         0.0000          0.0000   
+shares_out_ffill               463420992.0000 463420992.0000 1108739968.0000   
+eps_surp_pct                          -0.5500         0.0000          0.0000   
+split_flag                             1.0000         1.0000          1.0000   
+dividend_iqr_outlier                   0.0000         0.0000          0.0000   
+earnings_flag                          0.0000         0.0000          0.0000   
+shares_out_iqr_outlier                 0.0000         0.0000          0.0000   
+split_mult_iqr_outlier                 0.0000         0.0000          0.0000   
+eps_surp_rz_8                         -1.8211        -0.3691          0.0000   
+shares_out_roll_z_252                 -1.9109        -1.5186         -0.3706   
+split_ratio_iqr_outlier                0.0000         0.0000          0.0000   
+div_event_flag                         0.0000         0.0000          0.0000   
+eps_surp_winsor_iqr_outlier            0.0000         0.0000          0.0000   
+shares_out_roll_std_252                0.0040         0.0042          0.0091   
+split_mult                             0.0000         0.0000          0.0000   
+split_ratio                            0.0000         0.0000          0.0000   
+eps_surp_pct_final_iqr_outlier         0.0000         0.0000          0.0000   
+eps_surp_winsor                       -0.5500         0.0000          0.0000   
+div_negative_flag                      0.0000         0.0000          0.0000   
+eps_surp_pct_calc                      0.0000         0.0000          0.0000   
+div_amount_iqr_outlier                 0.0000         0.0000          0.0000   
+shares_out_nonpos_flag                 0.0000         0.0000          0.0000   
+split_nonpos_flag                      0.0000         1.0000          1.0000   
+shares_out                     463420992.0000 463420992.0000 1108739968.0000   
+log_shares_out                        19.9541        19.9541         20.8265   
+eps_surp_pct_final                    -0.5500         0.0000          0.0000   
+div_amount                             0.0000         0.0000          0.0000   
+log_shares_out_iqr_outlier             0.0000         0.0000          0.0000   
+eps_estimate_rz_8                     -1.7457         0.0000          0.0000   
+eps_actual                             0.0000         0.0000          0.0000   
+y_target                              -8.0000        -3.0649         -0.6742   
+
+                                           50%             75%  \
+dow_0                                   0.0000          0.0000   
+dow_1                                   0.0000          0.0000   
+dow_2                                   0.0000          0.0000   
+dow_3                                   0.0000          0.0000   
+dow_4                                   0.0000          0.0000   
+dow_5                                   0.0000          0.0000   
+f_minsin                               -0.5913         -0.4147   
+f_mincos                               -0.8064         -0.6691   
+close                                 153.4604        181.7600   
+f_volu_z_15_clipped                    -0.1273          0.6969   
+f_volu_z_30_clipped                    -0.1106          0.6711   
+f_volu_z_5_clipped                     -0.1225          0.8098   
+f_volu_z_60_clipped                    -0.0980          0.6431   
+f_volume_norm                          -0.2761          0.2491   
+fz_bb_pos                               0.0009          0.6748   
+fz_dev_close_ema20                     -0.0049          0.6622   
+fz_dev_close_ema200                    -0.0271          0.6150   
+fz_dev_close_vwap_15                    0.0000          0.6617   
+fz_dev_close_vwap_60                   -0.0147          0.6305   
+fz_dev_tp_ema20                        -0.0048          0.6614   
+fz_hl_over_atr20                        0.0309          0.8462   
+fz_hl_range_pct                         0.0005          0.7963   
+fz_lret_15_rolling                     -0.0028          0.6604   
+fz_lret_1_rolling                      -0.0000          0.6713   
+fz_lret_30_rolling                     -0.0113          0.6383   
+fz_lret_5_rolling                       0.0000          0.6738   
+fz_lret_60_rolling                     -0.0136          0.6264   
+fz_macd_hist                            0.0016          0.6730   
+fz_oc_change_pct                        0.0000          0.6727   
+fz_rsi_pos                             -0.0014          0.6767   
+fz_spill_AMAT_lret_lag1                 0.0000          0.5028   
+fz_spill_AMAT_lret_lag2                 0.0000          0.4984   
+fz_spill_AMAT_lret_lag3                 0.0000          0.4937   
+fz_spill_AMAT_lret_lag4                 0.0000          0.4938   
+fz_spill_AMAT_lret_lag5                 0.0000          0.4912   
+fz_spill_AMD_lret_lag1                  0.0000          0.4785   
+fz_spill_AMD_lret_lag2                  0.0000          0.4812   
+fz_spill_AMD_lret_lag3                  0.0000          0.4815   
+fz_spill_AMD_lret_lag4                  0.0000          0.4748   
+fz_spill_AMD_lret_lag5                  0.0000          0.4748   
+fz_spill_AVGO_lret_lag1                 0.0000          0.4789   
+fz_spill_AVGO_lret_lag2                 0.0000          0.4870   
+fz_spill_AVGO_lret_lag3                 0.0000          0.4841   
+fz_spill_AVGO_lret_lag4                 0.0000          0.4815   
+fz_spill_AVGO_lret_lag5                 0.0000          0.4863   
+fz_spill_MU_lret_lag1                   0.0000          0.4984   
+fz_spill_MU_lret_lag2                   0.0000          0.4796   
+fz_spill_MU_lret_lag3                   0.0000          0.4849   
+fz_spill_MU_lret_lag4                   0.0000          0.4771   
+fz_spill_MU_lret_lag5                   0.0000          0.4840   
+fz_spill_NVDA_lret_lag1                 0.0000          0.4864   
+fz_spill_NVDA_lret_lag2                 0.0000          0.4784   
+fz_spill_NVDA_lret_lag3                 0.0000          0.4841   
+fz_spill_NVDA_lret_lag4                 0.0000          0.4802   
+fz_spill_NVDA_lret_lag5                 0.0000          0.4790   
+fz_vol_15                               0.1554          1.1347   
+fz_vol_30                               0.0671          0.9832   
+fz_vol_5                                0.2061          1.2614   
+fz_vol_60                               0.0052          0.8141   
+fz_vol_ratio_15                         0.2862          1.0856   
+fz_vol_ratio_30                         0.2537          0.8951   
+fz_vol_ratio_5                          0.2926          1.2502   
+fz_vol_ratio_60                         0.0000          0.0000   
+high                                  153.5500        181.8499   
+hl_range                                0.1300          0.2050   
+low                                   153.3800        181.6769   
+oc_change                               0.0000          0.0600   
+open                                  153.4600        181.7655   
+rsi_14_clip                            50.3207         58.2705   
+vol_15                                  0.0519          0.0713   
+vol_30                                  0.0372          0.0500   
+vol_5                                   0.0836          0.1238   
+vol_60                                  0.0269          0.0356   
+volu_z_15                              -0.1273          0.6969   
+volu_z_30                              -0.1106          0.6714   
+volu_z_5                               -0.1225          0.8098   
+volu_z_60                              -0.0979          0.6444   
+volume                              35574.0000     115555.5000   
+year                                 2025.0000       2025.0000   
+month                                   7.0000          9.0000   
+day                                    16.0000         23.0000   
+overnight_n_rs                          0.0000          0.0000   
+cnt_15m_rs                              0.0000          0.0000   
+tone_mean_ewm_hl15                      0.0000          0.0026   
+overnight_tone_sum_rs                   0.0000          0.0000   
+morning_source_div_is_zero              1.0000          1.0000   
+minute_cos                             -0.8090         -0.6724   
+n_news_ewm_hl15_rs                     -0.0260         -0.0000   
+overnight_source_div_is_zero            0.0000          1.0000   
+cnt_15m                                 0.0000          0.0000   
+tone_ewm15                              0.0000          0.0026   
+cnt_30m_is_zero                         1.0000          1.0000   
+morning_n                               0.0000          1.0000   
+minute_sin                             -0.5878         -0.4107   
+dow_6                                   0.0000          0.0000   
+n_news_ewm_hl5_rs                      -0.0000         -0.0000   
+overnight_tone_sum                      1.9700          9.7572   
+morning_tone_sum                        0.0000          1.1620   
+cnt_30m                                 0.0000          0.0000   
+n_news_ewm_hl15                         0.0001          0.0137   
+tone_mean_delta_rs                      0.0000          0.1725   
+n_news_ewm_hl15_is_zero                 0.0000          0.0000   
+cnt_60m_rs                              0.0000          0.0000   
+morning_tone_mean                       0.0000          0.5384   
+morning_source_div_rs                   0.0000          0.0000   
+cnt_5m_rs                               0.0000          0.0000   
+cnt_5m_is_zero                          1.0000          1.0000   
+tone_ewm30                              0.0000          0.0068   
+morning_tone_sum_rs                     0.0000          0.0000   
+mins_since_last_news_is_zero            0.0000          1.0000   
+mins_since_last_news                   13.0000         76.0000   
+tone_mean_ewm_hl15_rs                  -0.0000          0.0000   
+overnight_n                             3.0000         10.0000   
+cnt_5m                                  0.0000          0.0000   
+overnight_tone_mean_rs                  0.0000          0.0000   
+cnt_15m_is_zero                         1.0000          1.0000   
+n_news_ewm_hl5                          0.0000          0.0013   
+morning_source_div                      0.0000          1.0000   
+tone_ewm30_rs                          -0.0102          0.0071   
+mins_since_bucket                       2.0000          3.0000   
+overnight_source_div_rs                 0.0000          0.0000   
+overnight_n_is_zero                     0.0000          1.0000   
+cnt_60m                                 0.0000          1.0000   
+n_news_ewm_hl5_is_zero                  0.0000          0.0000   
+morning_n_rs                            0.0000          0.0000   
+overnight_tone_mean                     0.5361          1.1247   
+cnt_30m_rs                              0.0000          0.0000   
+overnight_source_div                    2.0000          3.0000   
+has_news                                0.0000          0.0000   
+cnt_60m_is_zero                         1.0000          1.0000   
+morning_tone_mean_rs                    0.0000          0.0000   
+morning_n_is_zero                       1.0000          1.0000   
+minute_of_day_1based                  865.0000        912.0000   
+tone_ewm15_rs                          -0.0000          0.0000   
+tone_mean_delta                        -0.0000          0.0000   
+surprise_tone_mean                     -0.0014          0.0000   
+surprise_tone_mean_rs                   0.0000          0.0000   
+abs_tone_mean                           0.0000          0.0000   
+mins_since_last_news_rs                 0.0000          0.5494   
+tone_mean_rs                            0.0000          0.0000   
+n_pos_raw                               0.0000          0.0000   
+tone_sum_rs                             0.0000          0.0000   
+n_news                                  0.0000          0.0000   
+tone_sum                                0.0000          0.0000   
+n_news_rs                               0.0000          0.0000   
+tone_sum_slog                           0.0000          0.0000   
+n_pos_raw_rs                            0.0000          0.0000   
+n_pos_raw_is_zero                       1.0000          1.0000   
+tone_mean                               0.0000          0.0000   
+n_news_is_zero                          1.0000          1.0000   
+eps_actual_iqr_outlier                  0.0000          0.0000   
+shares_out_roll_mean_252               21.2041         22.1653   
+dividend                                0.0000          0.0000   
+eps_estimate_iqr_outlier                0.0000          0.0000   
+div_amount_rz_8                         0.0000          0.0000   
+eps_actual_rz_8                         0.0000          0.0000   
+eps_estimate                            0.0000          0.0000   
+5d_before_earnings_flag                 0.0000          0.0000   
+shares_out_ffill               1620480000.0000 4703470080.0000   
+eps_surp_pct                            0.0000          0.0000   
+split_flag                              1.0000          1.0000   
+dividend_iqr_outlier                    0.0000          0.0000   
+earnings_flag                           0.0000          0.0000   
+shares_out_iqr_outlier                  0.0000          0.0000   
+split_mult_iqr_outlier                  0.0000          0.0000   
+eps_surp_rz_8                           0.0000          0.0000   
+shares_out_roll_z_252                  -0.0736          0.4478   
+split_ratio_iqr_outlier                 0.0000          0.0000   
+div_event_flag                          0.0000          0.0000   
+eps_surp_winsor_iqr_outlier             0.0000          0.0000   
+shares_out_roll_std_252                 0.0127          0.0240   
+split_mult                              0.0000          0.0000   
+split_ratio                             0.0000          0.0000   
+eps_surp_pct_final_iqr_outlier          0.0000          0.0000   
+eps_surp_winsor                         0.0000          0.0000   
+div_negative_flag                       0.0000          0.0000   
+eps_surp_pct_calc                       0.0000          0.0000   
+div_amount_iqr_outlier                  0.0000          0.0000   
+shares_out_nonpos_flag                  0.0000          0.0000   
+split_nonpos_flag                       1.0000          1.0000   
+shares_out                     1620480000.0000 4703470080.0000   
+log_shares_out                         21.2060         22.2716   
+eps_surp_pct_final                      0.0000          0.0000   
+div_amount                              0.0000          0.0000   
+log_shares_out_iqr_outlier              0.0000          0.0000   
+eps_estimate_rz_8                       0.0000          0.0000   
+eps_actual                              0.0000          0.0000   
+y_target                               -0.0000          0.6716   
+
+                                            99%              max  
+dow_0                                    1.0000           1.0000  
+dow_1                                    1.0000           1.0000  
+dow_2                                    1.0000           1.0000  
+dow_3                                    1.0000           1.0000  
+dow_4                                    1.0000           1.0000  
+dow_5                                    0.0000           0.0000  
+f_minsin                                -0.2250          -0.0805  
+f_mincos                                -0.5075           0.9968  
+close                                  343.8500         373.9500  
+f_volu_z_15_clipped                      3.3514           3.6148  
+f_volu_z_30_clipped                      4.4318           5.0000  
+f_volu_z_5_clipped                       1.7702           1.7889  
+f_volu_z_60_clipped                      5.0000           5.0000  
+f_volume_norm                            5.3924          10.9268  
+fz_bb_pos                                2.5497           7.3415  
+fz_dev_close_ema20                       2.8946           8.0000  
+fz_dev_close_ema200                      3.2138           8.0000  
+fz_dev_close_vwap_15                     2.8218           8.0000  
+fz_dev_close_vwap_60                     2.8640           8.0000  
+fz_dev_tp_ema20                          2.9375           8.0000  
+fz_hl_over_atr20                         4.5448           8.0000  
+fz_hl_range_pct                          5.2291           8.0000  
+fz_lret_15_rolling                       2.9776           8.0000  
+fz_lret_1_rolling                        2.9340           8.0000  
+fz_lret_30_rolling                       2.8978           8.0000  
+fz_lret_5_rolling                        2.9245           8.0000  
+fz_lret_60_rolling                       2.7990           8.0000  
+fz_macd_hist                             3.2503           8.0000  
+fz_oc_change_pct                         3.0371           8.0000  
+fz_rsi_pos                               2.6525           8.0000  
+fz_spill_AMAT_lret_lag1                  2.9180           8.0000  
+fz_spill_AMAT_lret_lag2                  2.8464           8.0000  
+fz_spill_AMAT_lret_lag3                  2.7957           8.0000  
+fz_spill_AMAT_lret_lag4                  2.7672           8.0000  
+fz_spill_AMAT_lret_lag5                  2.7977           8.0000  
+fz_spill_AMD_lret_lag1                   2.7238           8.0000  
+fz_spill_AMD_lret_lag2                   2.7226           8.0000  
+fz_spill_AMD_lret_lag3                   2.7150           8.0000  
+fz_spill_AMD_lret_lag4                   2.6839           8.0000  
+fz_spill_AMD_lret_lag5                   2.6491           8.0000  
+fz_spill_AVGO_lret_lag1                  2.8477           8.0000  
+fz_spill_AVGO_lret_lag2                  2.8452           8.0000  
+fz_spill_AVGO_lret_lag3                  2.8418           8.0000  
+fz_spill_AVGO_lret_lag4                  2.8001           8.0000  
+fz_spill_AVGO_lret_lag5                  2.7583           8.0000  
+fz_spill_MU_lret_lag1                    2.8875           8.0000  
+fz_spill_MU_lret_lag2                    2.8103           8.0000  
+fz_spill_MU_lret_lag3                    2.7654           8.0000  
+fz_spill_MU_lret_lag4                    2.7406           8.0000  
+fz_spill_MU_lret_lag5                    2.7380           8.0000  
+fz_spill_NVDA_lret_lag1                  2.6848           8.0000  
+fz_spill_NVDA_lret_lag2                  2.6734           8.0000  
+fz_spill_NVDA_lret_lag3                  2.6402           8.0000  
+fz_spill_NVDA_lret_lag4                  2.6198           8.0000  
+fz_spill_NVDA_lret_lag5                  2.5941           8.0000  
+fz_vol_15                                8.0000           8.0000  
+fz_vol_30                                8.0000           8.0000  
+fz_vol_5                                 8.0000           8.0000  
+fz_vol_60                                8.0000           8.0000  
+fz_vol_ratio_15                          6.9111           8.0000  
+fz_vol_ratio_30                          4.5511           8.0000  
+fz_vol_ratio_5                           8.0000           8.0000  
+fz_vol_ratio_60                          0.0000           0.0000  
+high                                   344.0311         374.0600  
+hl_range                                 0.6650           8.7200  
+low                                    343.6611         373.7120  
+oc_change                                0.3700           8.7150  
+open                                   343.8800         373.9400  
+rsi_14_clip                             76.6960          92.0191  
+vol_15                                   0.2040           1.2230  
+vol_30                                   0.1415           0.6960  
+vol_5                                    0.3747           2.7342  
+vol_60                                   0.0980           0.3720  
+volu_z_15                                3.3514           3.6148  
+volu_z_30                                4.4538           5.2946  
+volu_z_5                                 1.7702           1.7889  
+volu_z_60                                5.5615           7.6168  
+volume                             1334768.3300    62648732.0000  
+year                                  2025.0000        2025.0000  
+month                                   12.0000          12.0000  
+day                                     31.0000          31.0000  
+overnight_n_rs                           0.0000           0.0000  
+cnt_15m_rs                         1098612.2887     1945910.1491  
+tone_mean_ewm_hl15                       0.1071           0.3927  
+overnight_tone_sum_rs                    0.0000           0.0000  
+morning_source_div_is_zero               1.0000           1.0000  
+minute_cos                              -0.5113          -0.5075  
+n_news_ewm_hl15_rs                   20376.9355       41786.6590  
+overnight_source_div_is_zero             1.0000           1.0000  
+cnt_15m                                  4.0000          16.0000  
+tone_ewm15                               0.1071           0.3927  
+cnt_30m_is_zero                          1.0000           1.0000  
+morning_n                               14.0000          25.0000  
+minute_sin                              -0.2207          -0.2164  
+dow_6                                    0.0000           0.0000  
+n_news_ewm_hl5_rs                    47887.0555      106782.5561  
+overnight_tone_sum                      83.0336         131.3160  
+morning_tone_sum                        16.4612          30.4510  
+cnt_30m                                  6.0000          18.0000  
+n_news_ewm_hl15                          0.1898           0.6478  
+tone_mean_delta_rs                      65.9812       27193.2444  
+n_news_ewm_hl15_is_zero                  0.0000           0.0000  
+cnt_60m_rs                          693147.1806     1386294.3611  
+morning_tone_mean                        3.1579           4.9057  
+morning_source_div_rs                    0.0000           0.0000  
+cnt_5m_rs                          1098612.2887     2079441.5417  
+cnt_5m_is_zero                           1.0000           1.0000  
+tone_ewm30                               0.0794           0.1986  
+morning_tone_sum_rs                      0.0000           0.0000  
+mins_since_last_news_is_zero             1.0000           1.0000  
+mins_since_last_news                   308.0000         388.0000  
+tone_mean_ewm_hl15_rs                11084.8869       71953.9256  
+overnight_n                             97.0000         159.0000  
+cnt_5m                                   2.0000          14.0000  
+overnight_tone_mean_rs                   0.0000           0.0000  
+cnt_15m_is_zero                          1.0000           1.0000  
+n_news_ewm_hl5                           0.2669           1.8126  
+morning_source_div                       3.0000           5.0000  
+tone_ewm30_rs                          562.9663       29006.7307  
+mins_since_bucket                        4.0000           4.0000  
+overnight_source_div_rs                  0.0000           0.0000  
+overnight_n_is_zero                      1.0000           1.0000  
+cnt_60m                                 10.0000          22.0000  
+n_news_ewm_hl5_is_zero                   0.0000           0.0000  
+morning_n_rs                             0.0000           0.0000  
+overnight_tone_mean                      2.9638           5.8366  
+cnt_30m_rs                          693147.1806     1609437.9124  
+overnight_source_div                     8.0000           9.0000  
+has_news                                 0.0000           1.0000  
+cnt_60m_is_zero                          1.0000           1.0000  
+morning_tone_mean_rs                     0.0000           0.0000  
+morning_n_is_zero                        1.0000           1.0000  
+minute_of_day_1based                   958.0000         959.0000  
+tone_ewm15_rs                        11084.8869       71953.9256  
+tone_mean_delta                          0.0810           8.3030  
+surprise_tone_mean                       0.0238           8.6898  
+surprise_tone_mean_rs                    0.0000     1891194.0362  
+abs_tone_mean                            0.0000           9.6154  
+mins_since_last_news_rs            2564949.3575     3258096.5380  
+tone_mean_rs                             0.0000     1983264.2655  
+n_pos_raw                                0.0000          14.0000  
+tone_sum_rs                              0.0000     4377207.7590  
+n_news                                   0.0000          14.0000  
+tone_sum                                 0.0000          22.1489  
+n_news_rs                                0.0000     1609437.9124  
+tone_sum_slog                            0.0000           3.1419  
+n_pos_raw_rs                             0.0000     1609437.9124  
+n_pos_raw_is_zero                        1.0000           1.0000  
+tone_mean                                0.0000           8.6957  
+n_news_is_zero                           1.0000           1.0000  
+eps_actual_iqr_outlier                   0.0000           0.0000  
+shares_out_roll_mean_252                23.9362          23.9370  
+dividend                                 0.1150           0.5900  
+eps_estimate_iqr_outlier                 0.0000           0.0000  
+div_amount_rz_8                          0.0000           0.6745  
+eps_actual_rz_8                          0.0000           2.8329  
+eps_estimate                             1.0800           2.8600  
+5d_before_earnings_flag                  5.0000           5.0000  
+shares_out_ffill               25507000320.0000 26343299072.0000  
+eps_surp_pct                             3.4500          19.7500  
+split_flag                               1.0000           1.0000  
+dividend_iqr_outlier                     1.0000           1.0000  
+earnings_flag                            1.0000           1.0000  
+shares_out_iqr_outlier                   1.0000           1.0000  
+split_mult_iqr_outlier                   0.0000           1.0000  
+eps_surp_rz_8                            0.0000           8.2384  
+shares_out_roll_z_252                    6.3234          12.1699  
+split_ratio_iqr_outlier                  0.0000           1.0000  
+div_event_flag                           1.0000           1.0000  
+eps_surp_winsor_iqr_outlier              0.0000           1.0000  
+shares_out_roll_std_252                  1.1507           1.1574  
+split_mult                               0.0000          10.0000  
+split_ratio                              0.0000          10.0000  
+eps_surp_pct_final_iqr_outlier           0.0000           1.0000  
+eps_surp_winsor                          3.4500          19.7500  
+div_negative_flag                        0.0000           0.0000  
+eps_surp_pct_calc                        3.4632          20.1258  
+div_amount_iqr_outlier                   1.0000           1.0000  
+shares_out_nonpos_flag                   0.0000           0.0000  
+split_nonpos_flag                        1.0000           1.0000  
+shares_out                     25507000320.0000 26343299072.0000  
+log_shares_out                          23.9622          23.9945  
+eps_surp_pct_final                       3.4500          19.7500  
+div_amount                               0.1150           0.5900  
+log_shares_out_iqr_outlier               1.0000           1.0000  
+eps_estimate_rz_8                        0.0000           3.1331  
+eps_actual                               1.0900           3.0300  
+y_target                                 2.9437           8.0000  
