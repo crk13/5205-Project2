@@ -14,7 +14,6 @@ Raw pulls are saved under `data/market`, `data/sentiment`, `data/fundamental` (a
 > **Runtime & Reproducibility**
 > Some steps vary from minutes to hours depending on the date range and hardware. We provide **pre-generated artifacts in `data/features`** and expose **run switches in notebooks/scripts**. By default, heavy steps are **OFF**; toggle them to re-run the full pipeline when needed.
 
----
 
 > **Note on final dataset upload**  
 > The `data/` folder in this repository only demonstrates the full **data-processing workflow and source code**.  
