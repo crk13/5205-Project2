@@ -16,6 +16,14 @@ Raw pulls are saved under `data/market`, `data/sentiment`, `data/fundamental` (a
 
 ---
 
+> **Note on final dataset upload**  
+> The `data/` folder in this repository only demonstrates the full **data-processing workflow and source code**.  
+> The final merged dataset used for model execution (`final_df.csv`) exceeds Canvas’s 100 MB upload limit and therefore cannot be hosted here.  
+> We have **uploaded `final_df.csv` separately to Canvas** — please **download it from Canvas and place it under**  
+> `5205-Project2/data/` **before running the notebooks or scripts**.
+
+---
+
 ## 2. Repository Layout (Required Files/Folders)
 
 ```
