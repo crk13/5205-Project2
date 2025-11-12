@@ -1,2 +1,2 @@
-# 5205-Project2
-Project 2: trading strategy
+# 5205-Project2-Trading Strategy
+
