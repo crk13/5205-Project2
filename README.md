@@ -15,7 +15,21 @@ The project is divided into the following modular stages, presented in chronolog
 
 #### 2.1 Lasso Regression
 
-#### 2.2 LightGBM
+### 2.2 LightGBM
+
+1. **Hyperparameter Tuning (All Features)** — *10-Fold TimeSeriesSplit*  
+   *Focus:* Full feature set with interpretable model diagnostics.
+
+2. **Hyperparameter Tuning (Lasso-Selected 75 Features)**  
+   *Focus:* Sparse feature subset from Lasso for efficient modeling.
+
+3. **Rolling Window Backtesting (Test Set, 30-Minute Horizon)**  
+   *Focus:* Out-of-sample evaluation with dynamic re-training.
+
+4. **Overfitting Diagnostics & Model Stability Check**  
+   *Focus:* Evaluate generalization, rolling IC, and Sharpe consistency.
+
+
 
 #### 2.3 Transformer
 
