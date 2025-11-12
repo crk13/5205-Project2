@@ -13,6 +13,18 @@ The project is divided into the following modular stages, presented in chronolog
 
 ### 2. Predictive Modeling  and Ensemble Learning
 
+#### 2.1 Lasso Regression
+
+#### 2.2 LightGBM
+
+#### 2.3 Transformer
+
+#### 2.4 Ridge Regression, Ensemble Model & Model Comparison
+
+* [**`Ridge Regression notebook`**](https://github.com/crk13/5205-Project2/blob/ridge_regression/ridge_hyper_param_search.ipynb)
+* [**`Ensemble Model & Model Comparison notebook`**](https://github.com/crk13/5205-Project2/blob/ridge_regression/weighted_model.ipynb)
+* [**Ridge Regression, Ensemble Model & Model Comparison README (Click Here)**](https://github.com/crk13/5205-Project2/tree/ridge_regression)
+
 ### 3. Strategy Backtest & Analysis
 
 * [**`strategy.ipynb`**](https://github.com/crk13/5205-Project2/blob/Strategy/strategy.ipynb)
