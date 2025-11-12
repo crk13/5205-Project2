@@ -143,5 +143,3 @@ All parameters can be modified directly in the "User Configuration" block at the
       * The 300-minute lookback window for the rolling volatility estimator ($\sigma_t$). This estimator is applied to the cross-sectional standard deviation of predictions.
 
 <!-- end list -->
-
-```
