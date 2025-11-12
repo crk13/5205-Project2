@@ -25,19 +25,19 @@ and rolling-window evaluation — were conducted within two complementary notebo
 
 #### Key Experiment Components
 
-1. **Hyperparameter Tuning (All Features)** — *10-Fold TimeSeriesSplit*  
+* **Hyperparameter Tuning (All Features)** — *10-Fold TimeSeriesSplit*  
    *Focus:* Full feature set used to identify feature importance and interpret model behaviour.
 
-2. **Hyperparameter Tuning (Lasso-Selected 75 Features)**  
+* **Hyperparameter Tuning (Lasso-Selected 75 Features)**  
    *Focus:* Sparse feature subset derived from Lasso selection for efficient modeling and fair comparison with linear baselines.
 
-3. **Rolling Window Backtesting (Test Set, 30-Minute Horizon)**  
+* **Rolling Window Backtesting (Test Set, 30-Minute Horizon)**  
    *Focus:* Out-of-sample evaluation under a dynamic retraining setup to emulate live trading conditions.
 
-4. **Overfitting Diagnostics & Model Stability Check**  
+* **Overfitting Diagnostics & Model Stability Check**  
    *Focus:* Evaluate generalisation through rolling IC, Sharpe consistency, and validation–test divergence.
 
-5. **Reduced 5-Feature Version (Overfitting Adjustment)**  
+* **Reduced 5-Feature Version (Overfitting Adjustment)**  
    *Notebook:* [`02_lgbm_5features_rolling.ipynb`](https://github.com/crk13/5205-Project2/blob/27630ef72819a31b5a55a407ab4a51a08f204f7f/script/02_lgbm_5features_rolling.ipynb)  
    *Focus:* A simplified variant retrained using the top five features to verify that model performance 
    was not dominated by a few predictors. Results showed minimal degradation in Sharpe ratio, 
