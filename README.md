@@ -19,11 +19,11 @@ The project is divided into the following modular stages, presented in chronolog
 * [**Strategy README (Click Here)**](https://github.com/crk13/5205-Project2/blob/Strategy/README.md)
 
 ---
-> **Note on final dataset upload**  
-> The `data/` folder in this repository only demonstrates the full **data-processing workflow and source code**.  
-> The final merged dataset used for model execution (`final_df.csv`) exceedsGithub’s 100 MB upload limit and therefore cannot be hosted here.  
-> We have **uploaded `final_df.csv` separately to Canvas** — please **download it from Canvas and place it under**  
-> `5205-Project2/data/` **before running the notebooks or scripts**.
+**Note on final dataset upload**  
+The `data/` folder in this repository only demonstrates the full **data-processing workflow and source code**.  
+The final merged dataset used for model execution (`final_df.csv`) exceeds Github’s 100 MB upload limit and therefore cannot be hosted here.  
+We have **uploaded `final_df.csv` separately to Canvas** — please **download it from Canvas and place it under**  
+`5205-Project2/data/` **before running the notebooks or scripts**.
 
 **Note on Reproducibility:**
 For a detailed breakdown of the final strategy's implementation, precise reproduction commands, and expected outputs (as required by the "Reproducibility check"), please see the detailed in each readme.
