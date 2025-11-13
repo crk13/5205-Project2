@@ -16,7 +16,7 @@ The project is divided into the following modular stages, presented in chronolog
 #### 2.1 Lasso Regression
 
 ### 2.2 LightGBM
-[LightGBM README (Click Here)](LightGBM/README.md)
+[LightGBM README (Click Here)](https://github.com/crk13/5205-Project2/blob/45781ec004629988bfa2f054ab51e3e9e0c8c13c/README.md)
 
 #### 2.3 Transformer
 
