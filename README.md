@@ -50,4 +50,4 @@ Any ad-hoc sampling in the notebooks (e.g., scatter plots in `Transformer_Huber.
 5. Use the CSVs in `output/` for your downstream comparison script/report.
 
 ## Maintainer
-Li Yuxin (李昱昕)
+Li Yuxin
