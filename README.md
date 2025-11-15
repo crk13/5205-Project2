@@ -2,7 +2,14 @@
 
 This repository documents the complete end-to-end workflow for developing, training, and backtesting a high-frequency quantitative trading strategy.
 
-The project is divided into the following modular stages, presented in chronological order. Each stage is contained within its own Jupyter Notebook, which includes detailed code, model-specific analysis, and findings.
+The project is divided into the following modular stages, presented in chronological order. Each stage is contained within its own Jupyter Notebook, which includes detailed code, model-specific analysis, and findings. Each stage is included in separate branches for clarity and modularity.
+
+* `main` branch: Project overview and structure. Including major notebooks from each stage.
+* `data` branch: Data collection, processing, and feature engineering.
+* `LASSO_NN` branch: Lasso Regression and Transformer modeling.
+* `LightGBM` branch: LightGBM modeling.
+* `ridge_regression` branch: Ridge Regression, Ensemble Modeling, and Model Comparison.
+* `Strategy` branch: Strategy backtesting and analysis.
 
 ## Project Workflow & Pipeline
 
@@ -13,12 +20,13 @@ The project is divided into the following modular stages, presented in chronolog
 
 ### 2. Predictive Modeling  and Ensemble Learning
 
-#### 2.1 Lasso Regression
+#### 2.1 Lasso Regression & Transformer 
+* [**`Lasso Regression notebook`**](https://github.com/crk13/5205-Project2/blob/LASSO_NN/notebooks/LASSO.ipynb)
+* [**`Transformer notebook`**](https://github.com/crk13/5205-Project2/blob/LASSO_NN/notebooks/transformer_Huber.ipynb)
+* [**Lasso Regression and Transformer README (Click Here)**](https://github.com/crk13/5205-Project2/blob/LASSO_NN/README.md)
 
-### 2.2 LightGBM
-[LightGBM README (Click Here)](https://github.com/crk13/5205-Project2/blob/45781ec004629988bfa2f054ab51e3e9e0c8c13c/README.md)
-
-#### 2.3 Transformer
+#### 2.2 LightGBM
+[**LightGBM README (Click Here)**](https://github.com/crk13/5205-Project2/blob/45781ec004629988bfa2f054ab51e3e9e0c8c13c/README.md)
 
 #### 2.4 Ridge Regression, Ensemble Model & Model Comparison
 
